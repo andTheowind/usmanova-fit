@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7B5A"/>
+      <stop offset="100%" stop-color="#E0523A"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#g3)"/>
+  <circle cx="150" cy="150" r="80" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="150" cy="150" r="55" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="150" cy="150" r="45" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="6"/>
+  <circle cx="150" cy="150" r="25" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="4"/>
+  <circle cx="150" cy="150" r="8" fill="rgba(255,255,255,0.6)"/>
+  <line x1="150" y1="105" x2="150" y2="80" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="150" y1="195" x2="150" y2="220" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="105" y1="150" x2="80" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="195" y1="150" x2="220" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+</svg>

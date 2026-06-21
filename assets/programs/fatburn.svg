@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="pf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#B91C1C"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#pf)"/>
+  <circle cx="200" cy="130" r="70" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="200" cy="130" r="45" fill="rgba(255,255,255,0.08)"/>
+  <path d="M200 190c-8-12-28-24-28-40a20 20 0 0 1 10-17c4 8 10 20 18 24 8-4 14-16 18-24a20 20 0 0 1 10 17c0 16-20 28-28 40z" fill="rgba(255,255,255,0.45)" stroke="rgba(255,255,255,0.65)" stroke-width="2"/>
+  <path d="M200 178c-4-6-14-13-14-22 0-6 4-9 6-11 1 3 4 9 8 11 4-2 7-8 8-11 2 2 6 5 6 11 0 9-10 16-14 22z" fill="rgba(255,255,255,0.25)"/>
+  <rect x="168" y="195" width="64" height="4" rx="2" fill="rgba(255,255,255,0.4)"/>
+  <text x="200" y="270" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Жиросжигающий</text>
+  <text x="200" y="288" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="Inter, Arial, sans-serif" font-size="13">6 недель — рельеф и сжигание</text>
+</svg>
