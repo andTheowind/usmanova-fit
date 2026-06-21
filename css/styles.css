@@ -565,7 +565,7 @@ ul {
   .hero__heading {
     order: 1;
     font-size: 26px;
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
 
   .hero__subheading {
@@ -574,9 +574,14 @@ ul {
     margin-bottom: 0;
   }
 
+  .hero__desc,
+  .about__text,
+  .about__item {
+    font-size: 16px;
+  }
+
   .hero__desc {
     order: 4;
-    font-size: 15px;
     margin-top: 0;
     margin-bottom: 24px;
   }
@@ -595,27 +600,21 @@ ul {
     font-size: 13px;
   }
 
-  .hero__image img {
-    width: 100%;
-    max-width: 345px;
-  }
-
   .hero__image {
     order: 3;
-    margin: 0;
+    width: calc(100% + 30px);
+    margin: 0 -15px;
+  }
+
+  .hero__image img {
+    width: 100%;
+    max-width: none;
+    object-fit: cover;
   }
 
   .about__title {
     font-size: 20px;
     font-weight: 500;
-  }
-
-  .about__text {
-    font-size: 15px;
-  }
-
-  .about__item {
-    font-size: 14px;
   }
 
   .about__gallery-item img {
