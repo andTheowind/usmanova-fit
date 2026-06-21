@@ -556,6 +556,7 @@ ul {
 
   .hero .container {
     padding: 15px;
+    overflow-x: hidden;
   }
 
   .hero__grid {
@@ -570,7 +571,7 @@ ul {
 
   .hero__subheading {
     order: 2;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 0;
   }
 
@@ -602,14 +603,17 @@ ul {
 
   .hero__image {
     order: 3;
-    width: calc(100% + 30px);
-    margin: 0 -15px;
+    width: calc(100% + 58px);
+    margin: -14px -30px 0px -30px;
   }
 
   .hero__image img {
     width: 100%;
     max-width: none;
+    height: 100%;
     object-fit: cover;
+    object-position: -9% 50%;
+    min-height: 498px;
   }
 
   .about__title {
